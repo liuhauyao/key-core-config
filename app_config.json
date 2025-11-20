@@ -1,7 +1,7 @@
 {
-  "version": "2.0.8",
+  "version": "2.0.9",
   "schemaVersion": 2,
-  "lastUpdated": "2025-01-21T00:00:00.000000",
+  "lastUpdated": "2025-01-21T00:30:00.000000",
   "config": {
     "supportedLanguages": [
       {
@@ -52,6 +52,13 @@
         "nativeName": "Français",
         "file": "fr.json",
         "lastUpdated": "2025-01-21T00:00:00.000000"
+      },
+      {
+        "code": "de",
+        "name": "German",
+        "nativeName": "Deutsch",
+        "file": "de.json",
+        "lastUpdated": "2025-01-21T00:30:00.000000"
       }
     ],
     "providers": [
