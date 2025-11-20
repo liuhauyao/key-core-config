@@ -1,7 +1,7 @@
 {
-  "version": "2.0.0",
+  "version": "2.0.1",
   "schemaVersion": 2,
-  "lastUpdated": "2025-11-20T16:10:59.293987",
+  "lastUpdated": "2025-01-20T10:30:00.000000",
   "config": {
     "providers": [
       {
@@ -1647,6 +1647,24 @@
         ],
         "homepage": "https://open.dingtalk.com",
         "docs": "https://open.dingtalk.com/document"
+      },
+      {
+        "serverId": "test-server",
+        "name": "测试服务器",
+        "description": "这是一个测试 MCP 服务器，用于验证配置更新功能",
+        "category": "development",
+        "serverType": "stdio",
+        "command": "echo",
+        "args": [
+          "Test MCP Server"
+        ],
+        "icon": "mcp.svg",
+        "tags": [
+          "test",
+          "development"
+        ],
+        "homepage": "https://github.com/liuhauyao/key-core-config",
+        "docs": "https://github.com/liuhauyao/key-core-config"
       }
     ],
     "codexAuthConfig": {
