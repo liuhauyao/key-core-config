@@ -1,7 +1,7 @@
 {
-  "version": "2.1.2",
+  "version": "2.1.3",
   "schemaVersion": 2,
-  "lastUpdated": "2025-01-21T02:00:00.000000",
+  "lastUpdated": "2025-01-21T02:30:00.000000",
   "config": {
     "supportedLanguages": [
       {
@@ -1109,23 +1109,6 @@
           "apiEndpoint": "https://api.figma.com/v1",
           "defaultName": "Figma API Key"
         }
-      },
-      {
-        "id": "test-hotreload",
-        "name": "热重载测试平台",
-        "platformType": "testHotreload",
-        "categories": [
-          "tools"
-        ],
-        "providerCategory": "thirdParty",
-        "websiteUrl": "https://test-hotreload.example.com",
-        "isOfficial": false,
-        "isPartner": false,
-        "platform": {
-          "managementUrl": "https://test-hotreload.example.com/keys",
-          "apiEndpoint": "https://api.test-hotreload.example.com/v1",
-          "defaultName": "热重载测试 API Key"
-        }
       }
     ],
     "mcpServerTemplates": [
@@ -1211,28 +1194,6 @@
         ],
         "homepage": "https://github.com",
         "docs": "https://docs.github.com"
-      },
-      {
-        "serverId": "test-hotreload-mcp",
-        "name": "热重载测试 MCP",
-        "description": "用于测试配置热重载功能的MCP服务器模板",
-        "category": "development",
-        "serverType": "stdio",
-        "command": "npx",
-        "args": [
-          "-y",
-          "@test/hotreload-mcp@latest"
-        ],
-        "env": {
-          "TEST_API_KEY": ""
-        },
-        "icon": "mcp.svg",
-        "tags": [
-          "测试",
-          "开发"
-        ],
-        "homepage": "https://test-hotreload.example.com",
-        "docs": "https://test-hotreload.example.com/docs"
       },
       {
         "serverId": "openai",
