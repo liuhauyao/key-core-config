@@ -1,7 +1,7 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "schemaVersion": 2,
-  "lastUpdated": "2025-01-21T01:00:00.000000",
+  "lastUpdated": "2025-01-21T01:30:00.000000",
   "config": {
     "supportedLanguages": [
       {
@@ -66,6 +66,13 @@
         "nativeName": "Italiano",
         "file": "it.json",
         "lastUpdated": "2025-01-21T01:00:00.000000"
+      },
+      {
+        "code": "ru",
+        "name": "Russian",
+        "nativeName": "Русский",
+        "file": "ru.json",
+        "lastUpdated": "2025-01-21T01:30:00.000000"
       }
     ],
     "providers": [
