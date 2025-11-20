@@ -35,5 +35,5 @@
 
 ## 仓库地址
 
-- **GitHub**: https://github.com/liuhuayao/key-core-config
-- **Gitee**: https://gitee.com/liuhuayao/key-core-config（国内镜像）
+- **GitHub**: https://github.com/liuhauyao/key-core-config
+- **Gitee**: https://gitee.com/liuhauyao/key-core-config（国内镜像）
