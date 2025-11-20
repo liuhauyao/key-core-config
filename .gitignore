@@ -16,3 +16,6 @@ Thumbs.db
 *.tmp
 *.bak
 
+# Setup documentation (temporary)
+SETUP_REPOSITORY.md
+
