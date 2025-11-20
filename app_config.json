@@ -1,7 +1,7 @@
 {
-  "version": "2.0.6",
+  "version": "2.0.7",
   "schemaVersion": 2,
-  "lastUpdated": "2025-01-20T23:00:00.000000",
+  "lastUpdated": "2025-01-20T23:30:00.000000",
   "config": {
     "supportedLanguages": [
       {
@@ -38,6 +38,13 @@
         "nativeName": "한국어",
         "file": "ko.json",
         "lastUpdated": "2025-01-20T23:00:00.000000"
+      },
+      {
+        "code": "hi",
+        "name": "Hindi",
+        "nativeName": "हिन्दी",
+        "file": "hi.json",
+        "lastUpdated": "2025-01-20T23:30:00.000000"
       }
     ],
     "providers": [
